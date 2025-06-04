@@ -28,10 +28,7 @@ jobs:
             echo "table_printer.rb not found"
             exit 1
           fi
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of 4105ae2 (Update add_identifiers.yml)
       # Install project dependencies
       - name: Install Project Dependencies
         run: bundle install
